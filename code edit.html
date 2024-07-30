@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>CODEPEN✍️</title>
+    <link rel="stylesheet" href="code edit.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="container">
+     <h1>CODEPEN✍️</h1>
+     <style>
+        h1{
+        color:white;
+        }
+      </style>
+      <div class="Editor">
+        <div class="left">
+          <label><i class="bx bxl-html5"></i>HTML</label>
+          <textarea  spellcheck="false" id="Html-code" placeholder="Type your code here..."></textarea
+          ><label> <i class="bx bxl-css3"></i>CSS </label>
+          <textarea  spellcheck="false" id="Css-code" placeholder="Type your code here..."></textarea>
+          <label> <i class="bx bxl-javascript"> </i>JAVA SCRIPT </label>
+          <textarea spellcheck="false" id="Java script" placeholder="Type your code here..."></textarea>
+        </div>
+
+        <div class="right">
+
+        <label> <i class="bx bx-play-circle"></i>OUTPUT 
+      <button class="run-button" onclick="updateOutput()"><b>Run Code</b></button></label>
+        <iframe id="output"></iframe>
+        </div>
+    </section>
+    <script src="code script.js"></script>
+  </body>
+</html>
+
